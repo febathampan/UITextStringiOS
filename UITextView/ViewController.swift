@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var successMessage: UILabel!
     
 	var isCompletelyFilled = false
+    var infoAdded = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,7 +64,7 @@ class ViewController: UIViewController {
     //Method called when submit button is pressed
     //Appropriate validations done and error or success labels are displayedS
     @IBAction func submitForm(_ sender: Any) {
-        if isCompletelyFilled {
+        if !infoAdded.isEmpty {
                 errorMessage.isHidden = true
                 successMessage.isHidden = false
                 }
@@ -71,6 +72,7 @@ class ViewController: UIViewController {
             successMessage.isHidden = true
             errorMessage.isHidden = false
         }
+        infoAdded = ""
         return
     }
     
@@ -111,6 +113,7 @@ class ViewController: UIViewController {
         else {
             return false
         }
+        infoAdded = "yes"
         return true
     }
             
