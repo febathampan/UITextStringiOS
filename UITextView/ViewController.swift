@@ -11,8 +11,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    //typealias CLASS = ViewController
-
 
 //All text fields
     @IBOutlet weak var firstName: UITextField!
@@ -56,6 +54,7 @@ class ViewController: UIViewController {
     //Clears text boxes and sets error messages hidden
     @IBAction func clearFields(_ sender: Any) {
         clearAllFields()
+        infoAdded = ""
         successMessage.isHidden = true
         errorMessage.isHidden = true
         return
@@ -89,6 +88,7 @@ class ViewController: UIViewController {
         return
         
     }
+   
     //clears all fields
     func clearAllFields(){
        clearAllFieldsExceptSummary()
@@ -104,7 +104,8 @@ class ViewController: UIViewController {
         country.text?.removeAll()
         return
     }
-    //validating user input and updating text field
+    
+    //validating user input
     func validateFields() -> Bool{
         guard let fName = firstName.text, !fName.isEmpty,
                       let lName = lastName.text, !lName.isEmpty,
