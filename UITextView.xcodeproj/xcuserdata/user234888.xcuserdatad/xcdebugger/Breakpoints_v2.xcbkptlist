@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FCC713FE-A335-4FF8-AF0A-89E155EB697F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39AC69DD-9A7B-4E6F-BF70-8A91A9A063B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "submitForm(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94A0195C-6C8A-46FB-95D6-6DBD7B2D619C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "validateFields()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "94A0195C-6C8A-46FB-95D6-6DBD7B2D619C - f2b1dea2f1617463"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.validateFields() -&gt; Swift.Bool"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "94A0195C-6C8A-46FB-95D6-6DBD7B2D619C - f2b1dea2f1617463"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.validateFields() -&gt; Swift.Bool"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "94A0195C-6C8A-46FB-95D6-6DBD7B2D619C - f2b1dea2f1617463"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.validateFields() -&gt; Swift.Bool"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1828">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99D17C45-3BCB-4B4D-A81C-DC7D01402733"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "validateFields()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83B87AAE-48A8-4F70-BB1F-41CF20890F61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "749C1917-1435-428F-A909-923AC4AEB5BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "validateFields()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "749C1917-1435-428F-A909-923AC4AEB5BD - f2b1dea2f1617442"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.validateFields() -&gt; Swift.Bool"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "749C1917-1435-428F-A909-923AC4AEB5BD - f2b1dea2f1617442"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.validateFields() -&gt; Swift.Bool"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "668">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "961E90EE-EDD2-4C42-9FF9-570999474525"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "validateFields()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "961E90EE-EDD2-4C42-9FF9-570999474525 - f2b1dea2f161741d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.validateFields() -&gt; Swift.Bool"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "961E90EE-EDD2-4C42-9FF9-570999474525 - f2b1dea2f161741d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.validateFields() -&gt; Swift.Bool"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "1032">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF06D717-EC84-4278-A7BA-3BB2601E6476"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "validateFields()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FF06D717-EC84-4278-A7BA-3BB2601E6476 - f2b1dea2f16174fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.validateFields() -&gt; Swift.Bool"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "1208">
+               </Location>
+               <Location
+                  uuid = "FF06D717-EC84-4278-A7BA-3BB2601E6476 - f2b1dea2f16174fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.validateFields() -&gt; Swift.Bool"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "1404">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBD369EF-5354-4DC2-85CE-6358AB742154"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "validateFields()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66FA2B3E-4AF7-47A7-81EA-B419C93753DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "validateFields()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "66FA2B3E-4AF7-47A7-81EA-B419C93753DC - f2b1dea2f16174be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.validateFields() -&gt; Swift.Bool"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1664">
+               </Location>
+               <Location
+                  uuid = "66FA2B3E-4AF7-47A7-81EA-B419C93753DC - f2b1dea2f16174be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.validateFields() -&gt; Swift.Bool"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1740">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79FD7533-59A2-48C5-93C9-0E7E1D2B478B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "submitForm(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF6743A3-5FBA-4D70-8F09-893C10A944D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FF6743A3-5FBA-4D70-8F09-893C10A944D4 - f2f249426cc47dd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.isCompletelyFilled.getter : Swift.Int"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "FF6743A3-5FBA-4D70-8F09-893C10A944D4 - 48797b304a6341ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.isCompletelyFilled.setter : Swift.Int"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "FF6743A3-5FBA-4D70-8F09-893C10A944D4 - a9af1fdbb1415ed0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.isCompletelyFilled.modify : Swift.Int"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "FF6743A3-5FBA-4D70-8F09-893C10A944D4 - dc0db771b25339d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.isCompletelyFilled.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "FF6743A3-5FBA-4D70-8F09-893C10A944D4 - de77d5dddffc72a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; UITextView.ViewController"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "FF6743A3-5FBA-4D70-8F09-893C10A944D4 - 2a04b8ad948c713a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITextView.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UITextView.ViewController&gt;"
+                  moduleName = "UITextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user234888/Desktop/iosLabs/Assignment2/UITextView/UITextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
