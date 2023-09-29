@@ -11,8 +11,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    //typealias CLASS = ViewController
-
 
 //All text fields
     @IBOutlet weak var firstName: UITextField!
@@ -24,6 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var successMessage: UILabel!
     
 	var isCompletelyFilled = false
+    var infoAdded = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,6 +54,7 @@ class ViewController: UIViewController {
     //Clears text boxes and sets error messages hidden
     @IBAction func clearFields(_ sender: Any) {
         clearAllFields()
+        infoAdded = ""
         successMessage.isHidden = true
         errorMessage.isHidden = true
         return
@@ -63,7 +63,7 @@ class ViewController: UIViewController {
     //Method called when submit button is pressed
     //Appropriate validations done and error or success labels are displayedS
     @IBAction func submitForm(_ sender: Any) {
-        if isCompletelyFilled {
+        if !infoAdded.isEmpty {
                 errorMessage.isHidden = true
                 successMessage.isHidden = false
                 }
@@ -71,6 +71,7 @@ class ViewController: UIViewController {
             successMessage.isHidden = true
             errorMessage.isHidden = false
         }
+        infoAdded = ""
         return
     }
     
@@ -87,6 +88,7 @@ class ViewController: UIViewController {
         return
         
     }
+   
     //clears all fields
     func clearAllFields(){
        clearAllFieldsExceptSummary()
@@ -102,7 +104,8 @@ class ViewController: UIViewController {
         country.text?.removeAll()
         return
     }
-    //validating user input and updating text field
+    
+    //validating user input
     func validateFields() -> Bool{
         guard let fName = firstName.text, !fName.isEmpty,
                       let lName = lastName.text, !lName.isEmpty,
@@ -111,6 +114,7 @@ class ViewController: UIViewController {
         else {
             return false
         }
+        infoAdded = "yes"
         return true
     }
             
