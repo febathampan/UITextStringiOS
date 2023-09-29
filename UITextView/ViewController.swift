@@ -11,6 +11,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //typealias CLASS = ViewController
+
 
 //All text fields
     @IBOutlet weak var firstName: UITextField!
@@ -20,7 +22,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var summary: UITextView!
     @IBOutlet weak var errorMessage: UILabel!
     @IBOutlet weak var successMessage: UILabel!
-	var isCompletelyFilled = 0
+    
+	var isCompletelyFilled = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +33,7 @@ class ViewController: UIViewController {
         country.placeholder = "Country"
         age.placeholder = "Age"
         setLabelMessages()
+        
         //labels are hidden initially
         errorMessage.isHidden = true
         successMessage.isHidden = true
@@ -43,8 +47,9 @@ class ViewController: UIViewController {
     
     //Method called when Add button is pressed and result displayed in text box
     @IBAction func addDetails(_ sender: Any) {
-        validateFields()
+        isCompletelyFilled = validateFields()
         updateSummary()
+        return
     }
     
     //Clears text boxes and sets error messages hidden
@@ -52,30 +57,33 @@ class ViewController: UIViewController {
         clearAllFields()
         successMessage.isHidden = true
         errorMessage.isHidden = true
+        return
     }
     
     //Method called when submit button is pressed
     //Appropriate validations done and error or success labels are displayedS
     @IBAction func submitForm(_ sender: Any) {
-        summary.text = "Is Complete: \(isCompletelyFilled)"
-        if isCompletelyFilled>0 {
-                    errorMessage.isHidden = true
-                    successMessage.isHidden = false
+        if isCompletelyFilled {
+                errorMessage.isHidden = true
+                successMessage.isHidden = false
                 }
-                else {
-                    successMessage.isHidden = true
-                    errorMessage.isHidden = false
-                }
+        else {
+            successMessage.isHidden = true
+            errorMessage.isHidden = false
+        }
+        return
     }
     
     //Updates text box in UI with user input values
     //success and error messages are hidden
     func updateSummary(){
-       let myText = "\n\t Full Name : \n\t \(firstName.text) \(lastName.text)\n\t Country :\(country.text)\n\t Age : \(age.text)\n isCompletelyFilled:\(isCompletelyFilled)"
+        let fullName = "\(firstName.text ?? "") \(lastName.text ?? "")"
+        let countryText = country.text ?? ""
+        let ageText = age.text ?? ""
+                
+        let myText = "\n\t Full Name : \n\t \(fullName)\n\t Country : \(countryText)\n\t Age : \(ageText)"
         clearAllFields()
         summary.text = myText
-        successMessage.isHidden = true
-        errorMessage.isHidden = true
         return
         
     }
@@ -83,7 +91,8 @@ class ViewController: UIViewController {
     func clearAllFields(){
        clearAllFieldsExceptSummary()
         summary.text?.removeAll()
-        isCompletelyFilled *= 0
+        isCompletelyFilled = false
+        return
     }
     
     func clearAllFieldsExceptSummary(){
@@ -91,22 +100,18 @@ class ViewController: UIViewController {
         lastName.text?.removeAll()
         age.text?.removeAll()
         country.text?.removeAll()
-    }
-    //validating user inputs	
-    func validateFields(){
-        guard let fName = firstName.text,
-              let lName = lastName.text,
-              let country_name = country.text,
-              let uAge = age.text,
-              !fName.isEmpty, !lName.isEmpty, !country_name.isEmpty, !uAge.isEmpty,
-              let ageVal = Int(uAge)
-        else {
-            errorMessage.isHidden = false
-            successMessage.isHidden = true
-            return
-        }
-        isCompletelyFilled += 1
         return
+    }
+    //validating user input and updating text field
+    func validateFields() -> Bool{
+        guard let fName = firstName.text, !fName.isEmpty,
+                      let lName = lastName.text, !lName.isEmpty,
+                      let country_name = country.text, !country_name.isEmpty,
+                      let uAge = age.text, !uAge.isEmpty, Int(uAge) != nil
+        else {
+            return false
+        }
+        return true
     }
             
 }
